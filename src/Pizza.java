@@ -6,9 +6,10 @@ public abstract class Pizza {
     String name;
     String dough;
     String sauce;
-    List<String> toppings = new ArrayList<String>();
+//    List<String> toppings = new ArrayList<String>();
 
-    void prepare() {
+    abstract void prepare();
+    /*void prepare() {
         System.out.println("Preparing" + name);
         System.out.println("Tossing dough...");
         System.out.println("Adding source");
@@ -16,7 +17,7 @@ public abstract class Pizza {
         for (String topping : toppings) {
             System.out.println("     " + topping);
         }
-    }
+    }*/
 
     void bake() {
         System.out.println("Bake for 25 minutes  at 350");
