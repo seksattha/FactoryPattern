@@ -1,4 +1,4 @@
-public class ThickCrushDough implements Dough {
+public class ThickCrustDough implements Dough {
     private static final int thickness = 6;
     @Override
     public void getDescription() {

@@ -4,8 +4,8 @@ import java.util.List;
 public abstract class Pizza {
 //    instance variables
     String name;
-    String dough;
-    String sauce;
+    Dough dough;
+    Sauce sauce;
 //    List<String> toppings = new ArrayList<String>();
 
     abstract void prepare();
