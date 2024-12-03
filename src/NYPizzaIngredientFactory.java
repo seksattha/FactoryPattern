@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
+    @Override
+    public Dough createDough() {
+        return new ThinCrustDough();
+    }
 
-public class NYPizzaIngredientFactory {
+    @Override
+    public Sauce createSauce() {
+        return new MarinaraSauce();
+    }
 }
