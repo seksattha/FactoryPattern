@@ -1,10 +1,10 @@
 public class Application {
     public static void main(String[] args) {
 
-        PizzaStore NyStore = new NYPizzaStore();
-        NyStore.orderPizza("cheese");
+        PizzaStore nyPizzaStore = new NYPizzaStore();
+        PizzaStore chicagoPizzaStore = new ChicagoPizzaStore();
 
-        PizzaStore ChicagoStore = new ChicagoPizzaStore();
-        ChicagoStore.orderPizza("cheese");
+        nyPizzaStore.orderPizza("cheese");
+        chicagoPizzaStore.orderPizza("cheese");
     }
 }
